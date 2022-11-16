@@ -6,7 +6,7 @@ class App:
         self.probleme = Gui_probleme(self.master)
 
 if __name__ == "__main__":
-    from tkinter import Tk
+    from tkinter import *
     root = Tk()
     App(root)
     root.mainloop()

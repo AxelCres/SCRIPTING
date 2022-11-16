@@ -4,6 +4,7 @@ from Controller import NbCars_nbPlacesVides
 class Gui_probleme:
     def __init__(self, parent):
         self.parent = parent
+        self.parent.title("Voici le titre")
         self.parent.geometry("200x200")
         self.frame = Frame(parent)
         self.interfaceGUI()
